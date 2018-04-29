@@ -1,0 +1,24 @@
+{
+  "name": "daily-inventory",
+  "version": "1.0.0",
+  "description": "simple web app backed by postgresql accepting a csv file and generating charts",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "seed": "node config/seed.js"
+  },
+  "author": "Ritikesh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "csv-reader": "^1.0.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
