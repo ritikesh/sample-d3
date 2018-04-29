@@ -20,3 +20,5 @@ Sample webpage showing graphs plotted on d3.js loaded through vue.js. Backend is
 
 ### Week view:
 ![Week view](screenshots/week.png)
+
+This project is Licensed under the MIT License. Further details can be found [here](/LICENSE).
